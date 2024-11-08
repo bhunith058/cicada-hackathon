@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+
+
+body {
+    background-color: #212121;
+    color: white;
+
+    font-family: "Galdeano", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+header {
+    padding: 5px;
+    top: 0;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 30px;
+
+}
+
+.hero {
+    position: relative;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://img.freepik.com/premium-photo/modern-buildings-city-houses-buildings-with-windows-evening-architectural-house-3d-render_507676-4832.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.left {
+    font-size: 1.4rem;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+
+}
+
+.right {
+    font-size: 1.2rem;
+}
+
+.title2 {
+    width: 550px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.title1 {
+    font-size: 40px;
+}
+
+.find {
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 14px;
+}
+
+.our {
+    font-size: 25px;
+    margin: 25px;
+}
+
+.description {
+    font-size: 23px;
+    margin: 25px;
+}
+
+.card {
+    width: 300px;
+    height: 550px;
+    background-color: lightgray;
+    border: 1px solid lightgrey;
+
+    border-radius: 14px;
+    text-align: center;
+    position: relative;
+
+}
+
+.cloud {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.about {
+    font-size: 25px;
+
+    color: black;
+}
+
+.learn {
+    padding: 10px 20px;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}
+
+.cloud-img img {
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 150px;
+    margin-top: 50px;
+    padding-bottom: 80px;
+
+    border-bottom: 1px solid white;
+
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cloud1 {
+    font-size: 25px;
+    color: black;
+}
+
+.about1 {
+    font-size: 23px;
+    color: black;
+}
+
+.title3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 {
+    width: 450px;
+    height: 640px;
+    border: 1px solid lightgrey;
+
+    border-radius: 14px;
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+.cloud2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.about2 {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.cloud-img2 img {
+    width: 100%;
+
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.author {
+    color: rgb(18, 170, 240);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.container1 {
+    width: 300px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 14px;
+    padding: 20px;
+    vertical-align: top;
+
+}
+
+.card2-img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.card3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card3-details {
+    margin-top: 10px;
+}
+
+.what {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.find1 {
+    text-align: center;
+    line-height: 70px;
+}
+
+.get {
+    padding: 10px 20px;
+    border-radius: 14px;
+    background-color: white;
+    color: black;
+    margin-bottom: 80px;
+
+}
+
+.find-details {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.contactcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contactme1 {
+    width: 500px;
+
+
+
+}
+
+.contact-input {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+
+.contact-message {
+    width: 100%;
+    padding: 10px 50px 50px 10px;
+    box-sizing: border-box;
+    border-radius: 14px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit button {
+
+    padding: 10px 20px;
+    border-radius: 14px;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    background-color: grey;
+    padding: 15px;
+}
+
+.chat {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    z-index: 99;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+.chat img {
+    height: 40px;
+}
+
+/* Chat Popup Styles */
+.chat-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chat-icon {
+    background-color: #007bff;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.chat-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.chat-box {
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    animation: slideUp 0.3s ease-out;
+}
+
+.chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-header .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.chat-messages {
+    padding: 10px;
+    max-height: 250px;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.user-message {
+    text-align: right;
+}
+
+.bot-message {
+    text-align: left;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.chat-input button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Show the chat box on chat bubble click */
+.chat-popup.open .chat-box {
+    display: block;
+}
+
+/* Simple animation for sliding in the chat box */
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+li a:hover {
+    cursor: pointer;
+    color: #007bff;
+}

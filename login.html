@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="logo.png" alt="">
+        <img src="MasterSoils Infotech.png" alt="">
+    </div>
+
+    <div class="form">
+        <input type="text" placeholder="Username" id="username">
+        <div><input type="password" placeholder="Password" id="password">
+            <p class="red">forgot password?</p>
+        </div>
+        <button onclick="submit()" >Login</button>
+        <p class="red">Not Registered, signup</p>
+    </div>
+</body>
+
+<script>
+    function submit() {
+    const name = document.getElementById('username').value.trim();
+
+    if (name == "") {
+        alert("All fields are required");
+    } else {
+        localStorage.setItem('username', name);
+        document.getElementById('username').value = "";
+        document.getElementById('password').value = "";
+        window.location.href = "index.html";
+    }
+}
+
+
+
+</script>
+<style>
+    body {
+        background-color: #1F1F1F;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form input {
+        height: 30px;
+        width: 300px;
+        border: 1px solid white;
+        outline: none;
+        background-color: #1F1F1F;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    button {
+        height: 4vh;
+        width: 5vw;
+        border-radius: 10px;
+    }
+
+    .red {
+        color: #2394B7;
+    }
+</style>
+
+
+</html>
